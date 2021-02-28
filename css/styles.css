@@ -1,0 +1,255 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --main-font-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+}
+
+::-webkit-slider-runnable-track; 
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+
+/*==========components=========*/
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration-line: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.sections-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+/*==========End components=========*/
+
+/*==========header=========*/
+.header-block {
+  background-color: #ffffff;
+}
+
+/*============INDEX==========*/
+.header-links a {
+  text-decoration: none;
+  color: var(--main-font-color);
+}
+
+.header-list:hover,
+.header-list:focus {
+  color: var(--accent-color);
+}
+
+.contact-links.link {
+  color: var(--secondary-color);
+}
+
+.contact-links:hover,
+.contact-links:focus {
+  color: var(--accent-color);
+}
+/*========== End header=========*/
+
+/*============hero=========*/
+.main-section {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  color: var(--secondary-color);
+  background-color: #2f303a;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-container {
+  text-align: center;
+}
+
+.button-hero {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/*============End hero=========*/
+
+/*============features=========*/
+.features-section {
+  background-color: #e5e5e5;
+}
+
+.features-list .list {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+
+.features-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/*============End features=========*/
+
+/*============working=========*/
+.working-section {
+  background-color: #e5e5e5;
+}
+
+.working-links {
+  text-decoration: none;
+}
+/*============End working=========*/
+
+/*============team=========*/
+.team {
+  background-color:
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/*============End team=========*/
+
+/*============footer==========*/
+.footers {
+  background-color: #2f303a;
+}
+
+.footers .logo {
+  color: #ffffff;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-address {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+.contacts-address:hover,
+.contacts-address:focus {
+  color: var(--accent-color);
+}
+
+.contacts-contact {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-contact:hover,
+.contacts-contact:focus {
+  color: var(--accent-color);
+}
+/*============End footer==========*/
+
+/*============PORTFOLIO==========*/
+
+/*============projects==========*/
+
+.portfolio {
+  text-decoration: none;
+  list-style: none;
+}
+.sample-projects {
+  text-decoration: none;
+  list-style: none;
+  background-color: #e5e5e5;
+}
+
+.projects-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+  cursor: pointer;
+}
+
+.projects-button:hover,
+.projects-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.project-title {
+  text-decoration-line: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-font-color);
+}
+
+.project-title:hover,
+.project-title:focus {
+  color: var(--accent-color);
+}
+
+.project-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.project-link:hover,
+.project-link:focus {
+  color: var(--accent-color);
+}
+/*============End projects==========*/
