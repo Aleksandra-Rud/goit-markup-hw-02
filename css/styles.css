@@ -55,6 +55,10 @@ body {
 /*============INDEX==========*/
 .header-links a {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--main-font-color);
 }
 
@@ -64,6 +68,10 @@ body {
 }
 
 .contact-links.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
 
@@ -111,8 +119,7 @@ body {
   background-color: #e5e5e5;
 }
 
-.features-list .list {
-  text-decoration: none;
+.features-list {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -124,7 +131,7 @@ body {
 .features-description {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
