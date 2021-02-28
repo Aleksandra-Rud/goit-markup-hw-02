@@ -5,9 +5,7 @@
   --accent-color: #2196f3;
 }
 
-::-webkit-slider-runnable-track; 
-
-body {
+::-webkit-slider-runnable-track body {
   font-family: Roboto, sans-serif;
   color: #212121;
 }
@@ -144,7 +142,7 @@ body {
 
 /*============team=========*/
 .team {
-  background-color:
+  background-color: #f5f4fa;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
